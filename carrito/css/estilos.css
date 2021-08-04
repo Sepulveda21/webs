@@ -85,14 +85,15 @@
 					height: 190px;
 				}				
 
+
 	@media(max-width: 420px)	{
 			.caja #padre1 .contentBox, #padre .contentBox{
 				width: 100%;
 			}
-				.caja #padre1 .contentBox .imagen img,.caja #padre .contentBox .imagen img{
+				.caja #padre1 .contentBox .imagen ,.caja #padre .contentBox .imagen{
 					width: 100%;
 					height: 190px;
 					position: relative;
 					left: 100px;
 				}							
-	}		
+	}			
