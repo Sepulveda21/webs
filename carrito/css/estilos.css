@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  list-style: none;
+  
+}
+.find{
+	width: 300px;
+	margin:0 auto;
+	margin-top:40px;
+}
+	.find input{
+		width: 100%;
+		height: 40px;
+		line-height: none;
+		border:1px solid #aaa;
+		outline: none;
+		text-align:center;
+	}
+	/*
+.caja{
+	width: 80%;
+	margin:0 auto;
+	margin-top:30px;
+}
+*/
+.contentBox{
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	
+}
+
+
+
+		.contentBox .imagen{
+		width: 200px;
+		height: 200px;
+		/*border:1px solid #aaa;*/
+	}
+	.contentBox .nombre{
+		width: 100%;
+		height: 20px;
+		text-align:center;
+	}	
+	.contentBox .precio{
+		text-align:center;
+		border:1px solid #ddd;
+	}
+	.contentBox .comprart,.contentBox .comprar{
+		width: 100px;
+		margin: 0 auto;
+
+		
+	}
+		.contentBox .comprart button,.contentBox .comprar  button{
+			width: 100px;
+			height: 30px;
+			outline: none;
+			cursor: pointer;
+		}	
+		.caja #padre1{
+			display: flex;
+			flex-flow: wrap;
+		}
+			.caja #padre1 .contentBox, .caja #padre .contentBox{
+				flex: 1;
+				width: 200px;
+				height: 300px;
+				border: 1px solid #ddd;
+			}	
+			.caja #padre .contentBox{
+				margin: 0 auto;
+			}
+			.caja #padre{
+				width: 190px;
+
+				margin: 0 auto;
+				margin-top:20px ;
+			}
+				.caja #padre1 .contentBox .imagen img,.caja #padre .contentBox .imagen img{
+					flex: 1;
+					width: 190px;
+					height: 190px;
+				}				
+
+	@media(max-width: 420px)	{
+			.caja #padre1 .contentBox, #padre .contentBox{
+				width: 100%;
+			}
+				.caja #padre1 .contentBox .imagen img,.caja #padre .contentBox .imagen img{
+					width: 100%;
+					height: 190px;
+					position: relative;
+					left: 100px;
+				}							
+	}		
