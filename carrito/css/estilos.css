@@ -85,7 +85,6 @@
 					height: 190px;
 				}				
 
-
 	@media(max-width: 420px)	{
 			.caja #padre1 .contentBox, #padre .contentBox{
 				width: 100%;
@@ -96,4 +95,4 @@
 					position: relative;
 					left: 100px;
 				}							
-	}			
+	}		
